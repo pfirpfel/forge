@@ -186,6 +186,7 @@
                     <version>2.5</version>
                     <configuration>
                         <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
+                        <pushChanges>false</pushChanges>
                     </configuration>
                 </plugin>
 
