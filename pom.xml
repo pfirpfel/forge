@@ -186,6 +186,8 @@
                     <version>2.5</version>
                     <configuration>
                         <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
+                        <remoteTagging>false</remoteTagging>
+                        <suppressCommitBeforeTag>true</suppressCommitBeforeTag>
                         <pushChanges>false</pushChanges>
                     </configuration>
                 </plugin>
