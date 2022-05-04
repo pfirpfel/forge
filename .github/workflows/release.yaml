@@ -1,16 +1,12 @@
-name: Release
+name: Release windows-linux build
 
-on: push
-#on:
-#  push:
-#    tags: # only create release on tags
-#      - '**'
-
-# TODO run osx build separately
-
+on:
+  push:
+    tags: # only create release on tags
+      - '**'
 
 jobs:
-  build:
+  release-windows-linux:
     runs-on: ubuntu-latest
     name: Release tagged version
     steps:
@@ -31,4 +27,9 @@ jobs:
           export DISPLAY=":1"
           Xvfb :1 -screen 0 800x600x8 &
           mvn -U -B clean -P windows-linux install release:clean release:prepare -DdryRun=true
-          ls -lah forge-gui-desktop/target
+
+      - name: Create gh release and upload desktop build as release artifact
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: forge-gui-desktop/target/forge-gui-desktop-*.tar.bz2
