@@ -3,7 +3,7 @@ Code=MH3
 Date=2024-06-07
 Name=Modern Horizons 3
 Type=Draft
-Booster=6 Common, 3 Uncommon, 1 RareMythic, 1 fromSheet("MH3 new to modern"), 1 Land, 1 Any, 1 Any+
+Booster=6 Common, 3 Uncommon, 1 RareMythic, 1 fromSheet("MH3 new to modern slot"), 1 fromSheet("MH3 land slot"), 1 Any, 1 Any+
 # This isn't the right ratios yet. But it's a start
 ChanceReplaceCommonWith=.0156F fromsheet("MH3 special guests")
 BoosterBox=36
@@ -273,6 +273,8 @@ ScryfallCode=MH3
 259 U Stump Stomp @Volkan Baǵa
 260 U Suppression Ray @Gabor Szikszai
 261 U Waterlogged Teachings @Douglas Shuler
+
+[new to modern]
 262 U Angel of the Ruins @Viko Menezes
 263 U Decree of Justice @Adam Rex
 264 U Distinguished Conjurer @Nils Hamm
@@ -315,6 +317,8 @@ ScryfallCode=MH3
 301 R Deserted Temple @Rob Alexander
 302 U Nesting Grounds @Yeong-Hao Han
 303 M Phyrexian Tower @Martin de Diego Sádaba
+
+[lands]
 304 L Plains @Nadia Hurianova
 305 L Island @Samuele Bandini
 306 L Swamp @Yohann Schepacz
@@ -542,48 +546,48 @@ ScryfallCode=MH3
 495 R Powerbalance @Liiga Smilshkalne
 496 R Flusterstorm @Andrew Mar
 
-[new to modern]
-1 Angel of the Ruins|MH3
-1 Decree of Justice|MH3
-1 Distinguished Conjurer|MH3
-1 Orim's Chant|MH3
+[new to modern slot]
+8 Angel of the Ruins|MH3
+8 Decree of Justice|MH3
+8 Distinguished Conjurer|MH3
+2 Orim's Chant|MH3
 1 Recruiter of the Guard|MH3
-1 Sevinne's Reclamation|MH3
-1 Deep Analysis|MH3
-1 Estrid's Invocation|MH3
-1 Kappa Cannoneer|MH3
-1 Reef Worm|MH3
-1 Shrieking Drake|MH3
-1 Buried Alive|MH3
-1 K'rrik, Son of Yawgmoth|MH3
-1 Nadier's Nightblade|MH3
-1 Ophiomancer|MH3
-1 Toxic Deluge|MH3
-1 Victimize|MH3
-1 Cursed Mirror|MH3
-1 Fledgling Dragon|MH3
-1 Laelia, the Blade Reforged|MH3
-1 Meltdown|MH3
-1 Meteoric Mace|MH3
-1 Annoyed Altisaur|MH3
-1 Branching Evolution|MH3
-1 Priest of Titania|MH3
-1 Sylvan Safekeeper|MH3
-1 Wirewood Symbiote|MH3
+2 Sevinne's Reclamation|MH3
+8 Deep Analysis|MH3
+2 Estrid's Invocation|MH3
+2 Kappa Cannoneer|MH3
+8 Reef Worm|MH3
+8 Shrieking Drake|MH3
+8 Buried Alive|MH3
+2 K'rrik, Son of Yawgmoth|MH3
+8 Nadier's Nightblade|MH3
+2 Ophiomancer|MH3
+2 Toxic Deluge|MH3
+8 Victimize|MH3
+2 Cursed Mirror|MH3
+8 Fledgling Dragon|MH3
+2 Laelia, the Blade Reforged|MH3
+8 Meltdown|MH3
+8 Meteoric Mace|MH3
+8 Annoyed Altisaur|MH3
+2 Branching Evolution|MH3
+8 Priest of Titania|MH3
+2 Sylvan Safekeeper|MH3
+8 Wirewood Symbiote|MH3
 1 Breya, Etherium Shaper|MH3
 1 Kaalia of the Vast|MH3
-1 Emerald Medallion|MH3
-1 Jet Medallion|MH3
-1 Junk Diver|MH3
-1 Pearl Medallion|MH3
-1 Ruby Medallion|MH3
-1 Sapphire Medallion|MH3
-1 Urza's Incubator|MH3
-1 Worn Powerstone|MH3
-1 Barbarian Ring|MH3
-1 Cephalid Coliseum|MH3
-1 Deserted Temple|MH3
-1 Nesting Grounds|MH3
+2 Emerald Medallion|MH3
+2 Jet Medallion|MH3
+8 Junk Diver|MH3
+2 Pearl Medallion|MH3
+2 Ruby Medallion|MH3
+2 Sapphire Medallion|MH3
+2 Urza's Incubator|MH3
+8 Worn Powerstone|MH3
+8 Barbarian Ring|MH3
+8 Cephalid Coliseum|MH3
+2 Deserted Temple|MH3
+8 Nesting Grounds|MH3
 1 Phyrexian Tower|MH3
 
 [special guests]
@@ -597,6 +601,93 @@ ScryfallCode=MH3
 1 Grief|SPG
 1 Fury|SPG
 1 Endurance|SPG
+
+[land slot]
+1 Drownyard Lurker|MH3
+1 Warped Tusker|MH3
+1 Aerie Auxiliary|MH3
+1 Dog Umbra|MH3
+1 Expel the Unworthy|MH3
+1 Hexgold Slith|MH3
+1 Inspired Inventor|MH3
+1 Jolted Awake|MH3
+1 Mandibular Kite|MH3
+1 Nyxborn Unicorn|MH3
+1 Rosecot Knight|MH3
+1 Solstice Zealot|MH3
+1 Thraben Charm|MH3
+1 Wing It|MH3
+1 Aether Spike|MH3
+1 Corrupted Shapeshifter|MH3
+1 Deem Inferior|MH3
+1 Electrozoa|MH3
+1 Petrifying Meddler|MH3
+1 Sage of the Unknowable|MH3
+1 Serum Visionary|MH3
+1 Tempest Harvester|MH3
+1 Tune the Narrative|MH3
+1 Unfathomable Truths|MH3
+1 Utter Insignificance|MH3
+1 Accursed Marauder|MH3
+1 Breathe Your Last|MH3
+1 Dreamdrinker Vampire|MH3
+1 Drossclaw|MH3
+1 Eviscerator's Insight|MH3
+1 Fetid Gargantua|MH3
+1 Gravedig|MH3
+1 Kami of Jealous Thirst|MH3
+1 Refurbished Familiar|MH3
+1 Retrofitted Transmogrant|MH3
+1 Scurrilous Sentry|MH3
+1 Wither and Bloom|MH3
+1 Fanged Flames|MH3
+1 Galvanic Discharge|MH3
+1 Glimpse the Impossible|MH3
+1 Infernal Captor|MH3
+1 Inventor's Axe|MH3
+1 Molten Gatekeeper|MH3
+1 Sarpadian Simulacrum|MH3
+1 Siege Smash|MH3
+1 Skoa, Embermage|MH3
+1 Smelted Chargebug|MH3
+1 Thriving Skyclaw|MH3
+1 Voidpouncer|MH3
+1 Basking Broodscale|MH3
+1 Colossal Dreadmask|MH3
+1 Eldrazi Repurposer|MH3
+1 Evolution Witness|MH3
+1 Fowl Strike|MH3
+1 Gift of the Viper|MH3
+1 Horrific Assault|MH3
+1 Malevolent Rumble|MH3
+1 Nightshade Dryad|MH3
+1 Nyxborn Hydra|MH3
+1 Temperamental Oozewagg|MH3
+1 Conduit Goblin|MH3
+1 Cranial Ram|MH3
+1 Cyclops Superconductor|MH3
+1 Expanding Ooze|MH3
+1 Faithful Watchdog|MH3
+1 Obstinate Gargoyle|MH3
+1 Riddle Gate Gargoyle|MH3
+1 Snapping Voidcraw|MH3
+1 Sneaky Snacker|MH3
+1 Writhing Chrysalis|MH3
+1 Bountiful Landscape|MH3
+1 Contaminated Landscape|MH3
+1 Deceptive Landscape|MH3
+1 Foreboding Landscape|MH3
+1 Perilous Landscape|MH3
+1 Seething Landscape|MH3
+1 Shattered Landscape|MH3
+1 Sheltering Landscape|MH3
+1 Tranquil Landscape|MH3
+1 Twisted Landscape|MH3
+8 Plains|MH3
+8 Island|MH3
+8 Swamp|MH3
+8 Mountain|MH3
+8 Forest|MH3
 
 [tokens]
 b_0_0_phyrexian_germ
